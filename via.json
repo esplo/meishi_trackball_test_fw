@@ -1,0 +1,24 @@
+{
+    "name": "test_trackball",
+    "vendorId": "0x1720",
+    "productId": "0x000A",
+    "lighting": "none",
+    "menus": [],
+    "keycodes": [],
+    "matrix": { "cols": 3, "rows": 1 },
+    "customKeycodes": [
+        {
+            "name": "ROT_R15",
+            "title": "Rotate sensor Y-axis by 15 degrees clockwise",
+            "shortName": "ROT_R15"
+        },
+        {
+            "name": "ROT_L15",
+            "title": "Rotate sensor Y-axis by 15 degrees counterclockwise",
+            "shortName": "ROT_L15"
+        }
+    ],
+    "layouts": {
+        "keymap": [["0,0", "0,2\n\n\n\n\n\n\n\n\ne0", "0,1"]]
+    }
+}
